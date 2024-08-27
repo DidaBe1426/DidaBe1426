@@ -1,0 +1,17 @@
+#ifndef ETUDIANT_H
+#define ETUDIANT_H
+       #include <string.h>
+       #include<stdio.h>
+       using namespace std;
+       class Etudiant
+       {
+       public:
+       Etudiant();
+       ~Etudiant();
+       void set P(parcours pa)
+       Parcours get P();
+       private:
+       string nom Etudiant;
+       Parcours pa;
+       };
+#endif       
